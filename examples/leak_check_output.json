@@ -1,0 +1,25 @@
+[
+  {
+    "file": "sample_transcript.txt",
+    "agent_turns": 4,
+    "issues": [],
+    "pass": true
+  },
+  {
+    "file": "bad_transcript.txt",
+    "agent_turns": 2,
+    "issues": [
+      {
+        "turn": 1,
+        "check": "tag_leak",
+        "text": "[casual] Hey, this is Avery."
+      },
+      {
+        "turn": 3,
+        "check": "reasoning_leak",
+        "text": "The user is asking who I am. I should explain that I'm the assistant."
+      }
+    ],
+    "pass": false
+  }
+]

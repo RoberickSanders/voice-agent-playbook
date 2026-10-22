@@ -1,0 +1,29 @@
+{
+  "name": "Avery",
+  "conversation_config": {
+    "agent": {
+      "first_message": "",
+      "language": "en",
+      "max_duration_seconds": 600,
+      "prompt": { "prompt": "@config/standing_prompt.md", "llm": "gemini-2.0-flash", "temperature": 0.7,
+                  "built_in_tools": ["end_call", "skip_turn", "voicemail_detection"] }
+    },
+    "tts": { "model_id": "eleven_v3_conversational", "voice_id": "<YOUR_VOICE_ID>",
+             "stability": 0.45, "speed": 0.98, "similarity_boost": 0.8 },
+    "asr": { "quality": "high" },
+    "turn": {
+      "turn_model": "turn_v3", "turn_eagerness": "eager", "initial_wait_time": 1.0,
+      "speculative_turn": true, "turn_timeout": 10.0, "silence_end_call_timeout": -1.0,
+      "soft_timeout_config": { "timeout_seconds": -1.0 },
+      "interruption_ignore_terms": ["okay", "ok", "uh huh", "uh-huh", "mhm", "mm hmm", "mm-hmm", "mmhm",
+        "gotcha", "got it", "uh", "um", "hm", "hmm", "avery", "this is avery"],
+      "merge_with_default_ignore_terms": true
+    },
+    "vad": { "background_voice_detection": true }
+  },
+  "platform_settings": {
+    "overrides": { "conversation_config_override": {
+      "agent": { "first_message": true, "language": true, "prompt": { "prompt": true, "llm": true } } } }
+  },
+  "_notes": "Field names follow the ElevenLabs Conversational AI agent API at build time; check current docs before applying. The assistant's own name is in interruption_ignore_terms so speakerphone echo of her intro is not treated as an interruption."
+}

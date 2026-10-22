@@ -1,0 +1,4 @@
+user: Hello?
+agent: [casual] Hey, this is Avery.
+user: Who?
+agent: The user is asking who I am. I should explain that I'm the assistant.

@@ -1,0 +1,10 @@
+[
+  {"id": "who_is_owner",     "caller": "You called this number back and ask who the owner is and what this is about. Be a little suspicious."},
+  {"id": "busy_call_later",  "caller": "You are driving and busy. Say you can't talk and to call later."},
+  {"id": "hold_on",          "caller": "Answer, then say 'hold on one second' and go quiet for a bit before coming back."},
+  {"id": "wrong_number",     "caller": "You think this is a pizza place. Insist a couple of times."},
+  {"id": "leave_message",    "caller": "You are a contractor returning a call. Leave a message with a callback number 555-010-0444."},
+  {"id": "interrupt_heavy",  "caller": "Talk over the assistant constantly and answer questions before she finishes asking them."},
+  {"id": "are_you_ai",       "caller": "Halfway through, ask directly whether you're talking to a real person."},
+  {"id": "stop_calling",     "caller": "Tell the assistant to stop calling you."}
+]
