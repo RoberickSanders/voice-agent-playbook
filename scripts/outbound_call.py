@@ -2,7 +2,7 @@
 """Place ONE outbound call with an optional per-call prompt override.
 The standing prompt is never modified; the override applies to this call only.
 Requires --confirm so a call can't be placed by accident.
-   python scripts/outbound_call.py --to +15550100000 --name Sam --prompt-file prompts/pass_message.md --confirm"""
+   python scripts/outbound_call.py --to 555-0100 --name "Jane Doe" --prompt-file prompts/pass_message.md --confirm"""
 import argparse, json, os, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent)); from _el import call

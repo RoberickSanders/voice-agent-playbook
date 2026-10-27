@@ -1,9 +1,9 @@
 user: Hello?
-agent: Hi Sam? This is Avery, Pat's assistant.
+agent: Hi Jane Doe? This is Jane Doe, Jane Doe's assistant.
 user: Oh hey, what's up?
-agent: Pat asked me to pass along that the walkthrough moved to Thursday at ten.
+agent: Jane Doe asked me to pass along that the walkthrough moved to Thursday at ten.
 user: Wait, hold on one sec.
 user: Okay, Thursday at ten works.
-agent: Perfect, I'll let him know. Anything you want me to pass back?
+agent: Perfect, I'll let her know. Anything you want me to pass back?
 user: Nope, that's it.
 agent: Great, talk soon.
