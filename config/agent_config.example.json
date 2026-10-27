@@ -1,5 +1,5 @@
 {
-  "name": "Avery",
+  "name": "Jane Doe",
   "conversation_config": {
     "agent": {
       "first_message": "",
@@ -16,7 +16,7 @@
       "speculative_turn": true, "turn_timeout": 10.0, "silence_end_call_timeout": -1.0,
       "soft_timeout_config": { "timeout_seconds": -1.0 },
       "interruption_ignore_terms": ["okay", "ok", "uh huh", "uh-huh", "mhm", "mm hmm", "mm-hmm", "mmhm",
-        "gotcha", "got it", "uh", "um", "hm", "hmm", "avery", "this is avery"],
+        "gotcha", "got it", "uh", "um", "hm", "hmm", "jane doe", "this is jane doe"],
       "merge_with_default_ignore_terms": true
     },
     "vad": { "background_voice_detection": true }
